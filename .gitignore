@@ -41,3 +41,11 @@ Thumbs.db
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ruby
+*.gem
+*.rbc
+/ruby-on-rails/log/*
+/ruby-on-rails/tmp/*
+!/ruby-on-rails/log/.keep
+!/ruby-on-rails/tmp/.keep

@@ -1,0 +1,6 @@
+# views/user/new.html.erb
+<%= form_with model: @user, local: true, :url => {:action => :create}  do |form| %>
+    <%= form.text_area :name %><br>
+    <%= form.file_field :image %><br>
+    <%= form.submit %>
+  <% end %>
