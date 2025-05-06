@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'rackup'
+gem 'puma'
+gem 'ruby-saml', "= 1.17.0"

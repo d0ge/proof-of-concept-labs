@@ -1,0 +1,9 @@
+services:
+  saml-app:
+    build: .
+    ports:
+      - "127.0.0.1:4567:4567"
+    volumes:
+      - .:/app
+    environment:
+      - RACK_ENV=development
